@@ -1,28 +1,50 @@
-# MarkMe-UltimateApp
-<h1>A application to provide the user experience to mark the attendance for the students by the lecturer in easy way automatically. It Include features: we have three roles</h1>
-<h1>Admin</h1>
-<h2>Teacher</h2>
-<h2>Student</h2>
-<h1>Admin Role</h1>
+<h1>📌 MarkMe-UltimateApp</h1>
 
-<b>Under the admin role, have few responsibility that he/she need to do before using the app</b>
+<p>✨ <b>An easy-to-use application that provides a seamless experience for marking student attendance automatically.</b></p>
+<p>The app has <b>three roles</b>:</p>
+
 <ul>
-  <li>Add Student with unique rollNumber</li>
-  <li>Add Teacher with unique Password</li>
+  <li>👨‍💼 <b>Admin</b></li>
+  <li>👨‍🏫 <b>Teacher</b></li>
+  <li>👩‍🎓 <b>Student</b></li>
 </ul>
 
- <h1>Teacher</h1>
-<b>Then real game starts from here , the teacher responsibilities goes like this....</b>
+<hr/>
+
+<h2>👨‍💼 Admin Role</h2>
+<p>The <b>Admin</b> is responsible for setting up the system before others can use it.</p>
+
+<b>Responsibilities:</b>
 <ul>
-  <li>Add Class with className and subjectName</li>
-  <li>Navigate to the current class</li>
-  <li>Mark the attendance for the students</li>
-  <li>Navigate to UltimateAttendanceSheet & Download</li>
+  <li>➕ Add <b>Students</b> with a unique <code>rollNumber</code></li>
+  <li>➕ Add <b>Teachers</b> with a unique <code>Password</code></li>
 </ul>
-<h1>Student</h1>
-<b>Now the real one will comes into picture.</b>
+
+<hr/>
+
+<h2>👨‍🏫 Teacher Role</h2>
+<p>The <b>Teacher</b> is the main user of the system.</p>
+
+<b>Responsibilities:</b>
 <ul>
-  <li>Login with credentials</li>
-  <li>Navigate to show attendance</li>
-  <li>Check for the Attendance Percentage</li>
+  <li>🏫 Create a <b>Class</b> with <code>className</code> and <code>subjectName</code></li>
+  <li>📂 Navigate to the <b>current class</b></li>
+  <li>✅ Mark attendance for students</li>
+  <li>📊 Access the <b>Ultimate Attendance Sheet</b> & Download it</li>
 </ul>
+
+<hr/>
+
+<h2>👩‍🎓 Student Role</h2>
+<p>The <b>Student</b> uses the app to track their attendance.</p>
+
+<b>Responsibilities:</b>
+<ul>
+  <li>🔑 Login with credentials</li>
+  <li>👀 Navigate to <b>Show Attendance</b></li>
+  <li>📈 Check <b>Attendance Percentage</b></li>
+</ul>
+
+<hr/>
+
+<h3>🚀 With <b>MarkMe-UltimateApp</b>, attendance management becomes <i>smarter, faster, and fully automated!</i></h3>
