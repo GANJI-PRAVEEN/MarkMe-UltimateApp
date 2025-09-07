@@ -48,3 +48,14 @@
 <hr/>
 
 <h3>🚀 With <b>MarkMe-UltimateApp</b>, attendance management becomes <i>smarter, faster, and fully automated!</i></h3>
+<div align="center">
+  <h2>👨‍💻Admin Field</h2>
+  
+  <img src = "app/AppClicks/MarkMe/EntryPage.jpg" alt="Entry Page" width=250/>
+  <img src = "app/AppClicks/MarkMe/AdminLogin.jpg" alt="Admin Login" width=250/>
+  <img src = "app/AppClicks/MarkMe/AdminDashBoard.jpg" alt="Admin Dashboard" width=250/>
+  <img src = "app/AppClicks/MarkMe/StudentList.jpg" alt="StudentList" width=250/>
+  <img src = "app/AppClicks/MarkMe/TeacherList.jpg" alt="TeacherList" width=250/>
+</div>
+
+
