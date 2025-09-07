@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/header_bkg"
+    android:theme="@style/Theme.Material3.Dark"
+    android:paddingTop="40dp">
+
+    <TextView
+        android:id="@+id/txtHeaderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeMaxTextSize="20dp"
+        android:autoSizeMinTextSize="12dp"
+        android:fontFamily="@font/arizona"
+        android:text="Praveen"
+        android:layout_margin="20dp"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</LinearLayout>

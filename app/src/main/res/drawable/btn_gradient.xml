@@ -1,0 +1,18 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#66FFFFFF"> <!-- ripple effect -->
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/lavender"
+            android:endColor="#0D47A1"
+            android:angle="45"/>
+            <corners android:radius="30dp"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp"/>
+        </shape>
+    </item>
+</ripple>

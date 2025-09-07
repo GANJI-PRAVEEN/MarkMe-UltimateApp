@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <!-- Other string resources -->
+
+        <string-array name="spinner_options_branch">
+            <item>CSE</item>
+            <item>ECE</item>
+            <item>EEE</item>
+        </string-array>
+
+    <string-array name="spinner_options_classes">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+    </string-array>
+    </resources>
+

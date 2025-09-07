@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="#4251f5">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_back"
+                android:background="@android:color/transparent"
+                android:id="@+id/toolbarBackIcon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:layout_marginEnd="25dp"
+                android:gravity="center_horizontal"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:id="@+id/toolbarTitle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SubTitle"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_below="@id/toolbarTitle"
+                android:gravity="center"
+                android:id="@+id/toolbarSubtitle"
+                android:background="@android:color/transparent"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save_image"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/toolbarSaveIcon"/>
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>

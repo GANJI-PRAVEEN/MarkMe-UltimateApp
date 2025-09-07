@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".showAttendancePath1">
+
+    <TextView
+        android:id="@+id/showAttendanceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Show Attendance"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/spinnerLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Branch"
+        android:layout_below="@id/showAttendanceTitle"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please select the class"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica" />
+
+        <Spinner
+            android:id="@+id/classListSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:requiresFadingEdge="horizontal"
+            android:fadingEdgeLength="10dp"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/spinnerLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_below="@id/spinnerLayout"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please select the Name"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica" />
+
+        <Spinner
+            android:id="@+id/nameListSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:requiresFadingEdge="horizontal"
+            android:fadingEdgeLength="10dp"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/btnOpenDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar"
+        android:layout_below="@id/spinnerLayout2"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Open Date Picker"
+        android:background="?attr/selectableItemBackground" />
+
+    <Button
+        android:id="@+id/btnStudentSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/btnOpenDatePicker"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

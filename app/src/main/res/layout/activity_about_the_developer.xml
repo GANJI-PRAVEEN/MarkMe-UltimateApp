@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".AboutTheDeveloper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <!-- Portfolio Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:strokeWidth="2dp"
+            app:strokeColor="#9C27B0"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📌 About Me"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#009688"
+                    android:paddingBottom="8dp" />
+
+                <!-- Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👨‍💻 Name: Ganji Praveen"
+                    android:textSize="16sp"
+                    android:paddingBottom="4dp" />
+
+                <!-- Qualification -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎓 Pursuing B.Tech 2nd Year @VNRVJIET, CSE Branch"
+                    android:textSize="16sp"
+                    android:paddingBottom="4dp" />
+
+                <!-- Interests -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💡 Interests: Mobile App Development, Web Development, AI Tools Explorer"
+                    android:textSize="16sp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Skills Heading -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🛠️ Skills"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#673AB7"
+                    android:paddingBottom="4dp" />
+
+                <!-- Skills Content -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Android Development (Java, XML, Firebase, SQLite)\n- Web Development (HTML, CSS, PHP, SQL, React – beginner)\n- Data Structures and Algorithms\n- Database Management (MySQL, SQLite)"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="2dp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Projects Heading -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📱 Projects"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#673AB7"
+                    android:paddingBottom="4dp" />
+
+                <!-- Projects Content -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- AttendanceApp – Track student attendance\n- Home Tuition Spy – Tutor tracking app (idea stage)\n- AI Tools Explorer – Web portal to explore AI tools"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="2dp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Contact Heading -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📧 Contact"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#673AB7"
+                    android:paddingBottom="4dp" />
+
+                <!-- Contact Content -->
+                <TextView
+                    android:id="@+id/contactLinks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web|email"
+                    android:text="Email: ganjipraveen@example.com\nLinkedIn: https://www.linkedin.com/in/ganjipraveen22/\nGitHub: https://github.com/GANJI-PRAVEEN"
+                    android:textSize="16sp"
+                    android:linksClickable="true"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <Button
+            android:id="@+id/moveBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MoveBack"
+            android:backgroundTint="@color/lavender"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:elevation="6dp"/>
+
+    </LinearLayout>
+</ScrollView>

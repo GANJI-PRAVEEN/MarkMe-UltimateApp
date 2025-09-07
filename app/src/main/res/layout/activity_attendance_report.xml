@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AttendanceReportActivity"
+    android:background="#F5F5F5">
+
+    <!-- Toolbar -->
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/stdAttendanceReportToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView for Subjects -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerAttendanceReport"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"/>
+
+    <!-- Stylish Circular Meter -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <!-- Circular Progress -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/rounded_circle"
+            android:rotation="-90"
+            android:scaleY="-1"/>
+
+        <!-- Percentage Text Inside -->
+        <TextView
+            android:id="@+id/tvTotalPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>
