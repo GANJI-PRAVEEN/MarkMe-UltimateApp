@@ -1,61 +1,120 @@
-<h1>📌 MarkMe-UltimateApp</h1>
+<h1 align="center">📌 MarkMe - UltimateApp</h1>
 
-<p>✨ <b>An easy-to-use application that provides a seamless experience for marking student attendance automatically.</b></p>
-<p>The app has <b>three roles</b>:</p>
+<p align="center">
+✨ <b>An easy-to-use application that provides a seamless experience for marking student attendance automatically.</b><br/>
+<i>Smarter • Faster • Automated</i>
+</p>
 
-<ul>
-  <li>👨‍💼 <b>Admin</b></li>
-  <li>👨‍🏫 <b>Teacher</b></li>
-  <li>👩‍🎓 <b>Student</b></li>
-</ul>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-green?logo=android"/>
+  <img src="https://img.shields.io/badge/Language-Java-blue?logo=java"/>
+  <img src="https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite"/>
+</p>
 
-<hr/>
+---
 
-<h2>👨‍💼 Admin Role</h2>
-<p>The <b>Admin</b> is responsible for setting up the system before others can use it.</p>
+## 🌟 App Roles
 
-<b>Responsibilities:</b>
-<ul>
-  <li>➕ Add <b>Students</b> with a unique <code>rollNumber</code></li>
-  <li>➕ Add <b>Teachers</b> with a unique <code>Password</code></li>
-</ul>
+- 👨‍💼 **Admin**
+- 👨‍🏫 **Teacher**
+- 👩‍🎓 **Student**
 
-<hr/>
+---
 
-<h2>👨‍🏫 Teacher Role</h2>
-<p>The <b>Teacher</b> is the main user of the system.</p>
+## 👨‍💼 Admin Role
+The **Admin** sets up the system before others can use it.
 
-<b>Responsibilities:</b>
-<ul>
-  <li>🏫 Create a <b>Class</b> with <code>className</code> and <code>subjectName</code></li>
-  <li>📂 Navigate to the <b>current class</b></li>
-  <li>✅ Mark attendance for students</li>
-  <li>📊 Access the <b>Ultimate Attendance Sheet</b> & Download it</li>
-</ul>
+**Responsibilities**
+- ➕ Add **Students** with a unique `rollNumber`  
+- ➕ Add **Teachers** with a unique `Password`  
 
-<hr/>
+---
 
-<h2>👩‍🎓 Student Role</h2>
-<p>The <b>Student</b> uses the app to track their attendance.</p>
+## 👨‍🏫 Teacher Role
+The **Teacher** is the main user of the system.
 
-<b>Responsibilities:</b>
-<ul>
-  <li>🔑 Login with credentials</li>
-  <li>👀 Navigate to <b>Show Attendance</b></li>
-  <li>📈 Check <b>Attendance Percentage</b></li>
-</ul>
+**Responsibilities**
+- 🏫 Create a **Class** (`className`, `subjectName`)  
+- 📂 Navigate to the **current class**  
+- ✅ Mark student attendance  
+- 📊 Access & Download the **Ultimate Attendance Sheet**  
 
-<hr/>
+---
 
-<h3>🚀 With <b>MarkMe-UltimateApp</b>, attendance management becomes <i>smarter, faster, and fully automated!</i></h3>
+## 👩‍🎓 Student Role
+The **Student** uses the app to track their attendance.
+
+**Responsibilities**
+- 🔑 Login with credentials  
+- 👀 Navigate to **Show Attendance**  
+- 📈 View **Attendance Percentage**  
+
+---
+
+## 🚀 With **MarkMe-UltimateApp**, attendance management becomes smarter, faster, and fully automated!
+
+---
+
+## 📸 App Screenshots
+
+<h2 align="center">👨‍💼 Admin Field</h2>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/EntryPage.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/AdminLogin.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/AdminDashBoard.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/StudentList.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/TeacherList.jpg" width="250"/>
+</p>
+
+---
+
+<h2 align="center">👨‍🏫 Teacher Field</h2>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/TeacherLogin.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/ClassesPage.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/MarkAttendance.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/AttendanceSheet.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/TheRealSheetDisplay.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/TheExcelDownload.jpg" width="250"/>
+</p>
+
+---
+
+<h2 align="center">👩‍🎓 Student Field</h2>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/StudentLogin.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/StudentDashBoard.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/SudentSideNavigationBar.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/StudentProfile.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/StudentFeedbackForm.jpg" width="250"/>
+  <img src="app/AppClicks/MarkMe/StudentAttendaceReport.jpg" width="250"/>
+</p>
+
+---
+
+<h2 align="center">👨‍💻 About the Developer</h2>
+<p align="center">
+  <img src="app/AppClicks/MarkMe/AboutDeveloper.jpg" width="300"/>
+</p>
+<p align="center">
+Made with ❤️ by <b>Ganji Praveen</b>
+</p>
+
+
 <div align="center">
-  <h2>👨‍💻Admin Field</h2>
-  
-  <img src = "app/AppClicks/MarkMe/EntryPage.jpg" alt="Entry Page" width=250/>
-  <img src = "app/AppClicks/MarkMe/AdminLogin.jpg" alt="Admin Login" width=250/>
-  <img src = "app/AppClicks/MarkMe/AdminDashBoard.jpg" alt="Admin Dashboard" width=250/>
-  <img src = "app/AppClicks/MarkMe/StudentList.jpg" alt="StudentList" width=250/>
-  <img src = "app/AppClicks/MarkMe/TeacherList.jpg" alt="TeacherList" width=250/>
+
+## 📥 Download the App
+
+✨ Get the latest version of **MarkMe-UltimateApp** here:
+
+[![Download APK](https://img.shields.io/badge/⬇️_Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/GANJI-PRAVEEN/MarkMe-UltimateApp/blob/main/app-debug.apk)
+
 </div>
 
 
